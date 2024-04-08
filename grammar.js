@@ -388,3 +388,5 @@ module.exports = grammar({
 
   word: ($) => $.identifier,
 });
+
+module.exports.PREC = PREC;
